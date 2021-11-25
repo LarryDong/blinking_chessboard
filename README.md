@@ -35,9 +35,10 @@ The event-frame may have 3 values: 0/255 for negative/positive events, and 128 f
 but the ideal "chessboard" is black on white background.  
 So this demo does this job.
 
+![convert_result](/pictures/output.bmp)
 
 
 ## Reminder
-1. Make sure the blinking time is shorter than the duration of your "event-frame slice" (high frequency)  
-2. However, if the frequency is too high, your monitor may not show the changes. So a high refreshing rate monitor is recommended.
-3. As a result, the event-frame duration should be as large as possible  
+- Make sure the blinking time is shorter than the duration of your "event-frame slice". The event-frame duration could be as large as possible.
+- A high refreshing-rate monitor is recommended. Otherwise, your monitor may not show the changes of blinking chessboard ideally.
+- Make sure your monitor do not reflect lights(or shadows) in the environment, otherwise the chessboard may be not complete.
